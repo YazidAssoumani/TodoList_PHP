@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    transition: all .2s ease 0s
+}
+
+*:hover {transition: all .2s ease 0s}
+
+body {
+    /* GRID */
+        display: grid;
+        grid-template-areas:
+        "yelloww yelloww"
+        "redd redd"
+        "greenn bluee"
+        "greenn grey-brownn";
+        grid-template-columns: 25vw 75vw;
+        grid-template-rows: repeat(4, 25vh);
+    /* GRID */
+    margin: 0
+}
+
+.yellow {
+    grid-area: yelloww;
+    background-color: yellow
+}
+.red {
+    grid-area: redd;
+    background-color: red
+}
+.green {
+    grid-area: greenn;
+    background-color: green
+}
+.blue {
+    grid-area: bluee;
+    background-color: blue
+}
+.grey-brown {
+    grid-area: grey-brownn;
+    background-color: #deb887
+}
+
+@media (min-width: 1050px)
+{
+    body {
+        grid-template-areas:
+        "yelloww yelloww redd redd"
+        "bluee grey-brownn grey-brownn greenn";
+        grid-template-columns: 33vw 17vw 17vw 33vw;
+        grid-template-rows: 50vh 50vh
+    }
+}
