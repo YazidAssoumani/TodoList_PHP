@@ -112,9 +112,9 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-          <button type="button" class="btn btn-primary" id="btnAddTodo" onClick="addTodos()">Ajouter</button>
-          <button type="button" class="btn btn-success" id="btnUpdateTodo">Modifier</button>
-          <button type="button" class="btn btn-danger" id="btnDeleteTodo">Supprimer</button>
+          <button type="button" class="btn btn-primary" id="btnAddTodo" onClick="addTodo()">Ajouter</button>
+          <button type="button" class="btn btn-success" id="btnUpdateTodo" onClick="updateTodo()">Modifier</button>
+          <button type="button" class="btn btn-danger" id="btnDeleteTodo" onClick="deleteTodo()">Supprimer</button>
         </div>
       </div>
     </div>

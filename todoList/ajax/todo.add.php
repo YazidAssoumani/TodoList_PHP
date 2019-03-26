@@ -3,7 +3,6 @@
   require_once '../todo.php';
 ?>
 
-
 <?php
 
   $todo = new Todo();
